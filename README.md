@@ -9,15 +9,15 @@ Very personalized for my usecase.
 
 ### How to use:
 
-Pass no arguments to run the script:
+**Pass no arguments to run the script:**
 ```bash
 ./window-close-confirm-popup.sh
 ```
 Recomend to set this command to a keybind because running this in terminal will just close terminal
         
-        
 
-Costumizing settings (pass arguments):
+
+**Costumizing settings (pass arguments):**
 
 To open settings gui:
 ```bash
