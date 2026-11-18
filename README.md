@@ -9,13 +9,14 @@ Very personalized for my usecase.
 
 ### How to use:
 
-*Pass no arguments to run the script:
+Pass no arguments to run the script:
 ```bash
 ./window-close-confirm-popup.sh
 ```
 Recomend to set this command to a keybind because running this in terminal will just close terminal
 
-*Costumizing settings (pass arguments):
+
+Costumizing settings (pass arguments):
 
 To open settings gui:
 ```bash
@@ -36,17 +37,17 @@ To change mode:
 ./window-close-confirm-popup.sh -mode "new mode"
 ```
 Possible modes:
-    "-n" = never ask (no popup)
-    "-w" = ask only for apps NOT in WHITELIST
-    "-b" = ask only for apps IN WHITELIST
-    "-a" = always ask (ignore whitelist)
+* "-n" = never ask (no popup)
+* "-w" = ask only for apps NOT in WHITELIST
+* "-b" = ask only for apps IN WHITELIST
+* "-a" = always ask (ignore whitelist)
 
 ### Requirements:
 
 Since this is a personalized setup, it assumes you have the following installed on your Linux system:
-    xdotool (get active window ID)
-    xprop (x11-utils — read WM_CLASS)
-    wmctrl (close the window)
-    Zenity (confirmation popup)
-    Yad (config GUI)
-    libnotify (notify-send — save confirmation)
+* xdotool (get active window ID)
+* xprop (x11-utils — read WM_CLASS)
+* wmctrl (close the window)
+* Zenity (confirmation popup)
+* Yad (config GUI)
+* libnotify (notify-send — save confirmation)
