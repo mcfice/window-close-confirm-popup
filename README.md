@@ -14,7 +14,8 @@ Pass no arguments to run the script:
 ./window-close-confirm-popup.sh
 ```
 Recomend to set this command to a keybind because running this in terminal will just close terminal
-
+        
+        
 
 Costumizing settings (pass arguments):
 
